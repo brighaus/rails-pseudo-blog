@@ -6,10 +6,10 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
-  * ruby 2.4.5p335 (2018-10-18 revision 65137) [x86_64-darwin19]
+  * ruby 2.6.6
 
 * Rails version
-  * TBD  
+  * 5.0.0  
 
 * System dependencies
 
