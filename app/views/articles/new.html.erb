@@ -1,0 +1,13 @@
+<h1>Create New Article</h1>
+
+<%= form_for @article, url: {action: "create"}  do |form|  %>
+  <fieldset>
+    <legend>Article Details</legend>
+     <%= form.label :title %>
+     <%= form.text_field :title %>
+
+      <%= form.label:description %>
+     <%= form.text_area(:description,size: "30x4") %>
+  </fieldset>
+  <%= form.submit "Create" %>
+<% end %>
