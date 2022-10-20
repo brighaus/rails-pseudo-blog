@@ -1,6 +1,15 @@
+$nav-text-color: #fff;
+
 .navbar-custom {
   background-color: #b794f6;
   .navbar-brand {
-    color: #fff;
+    color: $nav-text-color;
+  }
+
+  .nav-link {
+    color: $nav-text-color;
+    &.active {
+      color: #392e4c;
+    }
   }
 }
